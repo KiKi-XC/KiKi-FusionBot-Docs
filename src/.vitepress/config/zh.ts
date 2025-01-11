@@ -73,7 +73,15 @@ function sidebarGuide(): DefaultTheme.Sidebar {
       base: '/course',
       collapsed: true,
       items: [
-        { text: '命令使用指南', link: '/command' },
+        {
+          text: '命令使用指南',
+          base: '/course/command',
+          collapsed: false,
+          items: [
+            { text: '玩家命令', link: '/user_command.md' },
+            { text: '管理员命令', link: '/op_command.md' },
+          ]
+        },
         { text: '常见问题解决', link: '/faq' },
         { text: '细节与特性', link: '/features'}
       ]
