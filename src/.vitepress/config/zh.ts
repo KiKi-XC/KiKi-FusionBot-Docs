@@ -83,17 +83,15 @@ function sidebarGuide(): DefaultTheme.Sidebar {
       base: '/develop',
       collapsed: true,
       items: [
+        { text: 'Token申请', link: '/token' },
         { text: '请求接口', link: '/api' },
         { text: '上报事件', link: '/event' },
-        { text: '消息类型', link: '/msg' },
-        { text: '本体开发', link: '/plugin' },
         {
-          text: '完整接口定义',
-          base: '/develop/api',
+          text: '模块用法',
+          base: '/develop/models',
           collapsed: false,
           items: [
-            { text: '接口', link: '/doc' },
-            { text: '类型', link: '/type' }
+            { text: 'Get Skin', link: '/get_skin.md' },
           ]
         }
       ]
@@ -105,7 +103,6 @@ function sidebarGuide(): DefaultTheme.Sidebar {
       items: [
         {
           text: 'KiKiKiKiKiKiKiKiKi',
-          link: '/kiki_fusionbot.md'
         },
         {
           text: '关于',

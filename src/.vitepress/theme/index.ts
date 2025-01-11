@@ -1,24 +1,22 @@
 // .vitepress/theme/index.js
 import DefaultTheme from 'vitepress/theme'
-import { h, type Plugin } from 'vue';
-import { useData, useRoute } from 'vitepress';
-import type { EnhanceAppContext } from 'vitepress';
+import {h, type Plugin} from 'vue';
+import {useData, useRoute} from 'vitepress';
 
 
-import { NolebaseGitChangelogPlugin, Options } from '@nolebase/vitepress-plugin-git-changelog/client';
-import { NolebasePagePropertiesPlugin } from '@nolebase/vitepress-plugin-page-properties';
-import { NolebaseEnhancedReadabilitiesMenu, NolebaseEnhancedReadabilitiesScreenMenu, } from '@nolebase/vitepress-plugin-enhanced-readabilities/client';
-import TwoslashFloatingVue from '@shikijs/vitepress-twoslash/client';
-import { NolebaseEnhancedReadabilitiesPlugin } from '@nolebase/vitepress-plugin-enhanced-readabilities/client';
-import codeblocksFold from 'vitepress-plugin-codeblocks-fold';
-import { NolebaseHighlightTargetedHeading } from '@nolebase/vitepress-plugin-highlight-targeted-heading/client';
-import { InjectionKey } from '@nolebase/vitepress-plugin-git-changelog/client';
-import { ShareButton } from '@theojs/lumen';//不好看
-import { HomeFooter } from '@theojs/lumen'
-import { Footer_Data } from '../data/footerData.ts';
+import {InjectionKey, NolebaseGitChangelogPlugin, Options} from '@nolebase/vitepress-plugin-git-changelog/client';
+import {NolebasePagePropertiesPlugin} from '@nolebase/vitepress-plugin-page-properties';
 import {
-  NolebaseInlineLinkPreviewPlugin,
-} from '@nolebase/vitepress-plugin-inline-link-preview/client'
+  NolebaseEnhancedReadabilitiesMenu,
+  NolebaseEnhancedReadabilitiesPlugin,
+  NolebaseEnhancedReadabilitiesScreenMenu,
+} from '@nolebase/vitepress-plugin-enhanced-readabilities/client';
+import TwoslashFloatingVue from '@shikijs/vitepress-twoslash/client';
+import codeblocksFold from 'vitepress-plugin-codeblocks-fold';
+import {NolebaseHighlightTargetedHeading} from '@nolebase/vitepress-plugin-highlight-targeted-heading/client';
+import {HomeFooter} from '@theojs/lumen';
+import {Footer_Data} from '../data/footerData.ts';
+import {NolebaseInlineLinkPreviewPlugin,} from '@nolebase/vitepress-plugin-inline-link-preview/client'
 
 import '@shikijs/vitepress-twoslash/style.css';
 import '@nolebase/vitepress-plugin-inline-link-preview/client/style.css'
@@ -34,6 +32,7 @@ import Hero from '../theme/Layout.vue';
 import NCard from './components/NCard.vue';
 
 import './custom.css';
+
 export default {
   extends: DefaultTheme,
   Layout: () => {
