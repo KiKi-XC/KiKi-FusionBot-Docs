@@ -1,30 +1,30 @@
 import type { FooterData } from '@theojs/lumen'
 
 export const Footer_Data: FooterData = {
-    author: { name: 'NapNeko', link: 'https://github.com/NapNeko' },
+    author: { name: 'KiKi-Items', link: 'https://github.com/KiKi-XC' },
     group: [
         {
-            title: '生态',
+            title: '二次开发',
             icon: 'fa-solid fa-lightbulb',
             links: [
-                { name: '官方对接框架', href: 'https://node-napcat-ts.huankong.top' },
-                { name: '二次开发框架', href: 'https://napneko.github.io/develop/plugin' },
+                { name: '标准性能数据接口', href: '#' },
+                { name: '部分开源模块代码', href: '#' },
             ]
         },
         {
-            title: '工具',
+            title: 'KiKi-Items',
             icon: 'fa-solid fa-puzzle-piece',
             links: [
-                { name: '可视化管理工具', href: '#' },
-                { name: '可视化网页配置', href: '#' },
+                { name: 'KiraSysPulse-可视化开服性能监视器', href: '#' },
+                { name: 'FluffyTime-统计你的编码时间', href: '#' },
             ]
         },
         {
-            title: '社区',
+            title: '部分技术栈',
             icon: 'fa-solid fa-expand',
             links: [
-                { name: '官方 企鹅 社区', href: 'https://qm.qq.com/q/I6LU87a0Yq' },
-                { name: '官方 Telegram 社区', href: 'https://t.me/MelodicMoonlight' },
+                { name: 'Nonebot-2', href: 'https://nonebot.dev/' },
+                { name: 'Python-312', href: 'https://www.python.org/downloads/release/python-3120/' },
             ]
         }
     ]

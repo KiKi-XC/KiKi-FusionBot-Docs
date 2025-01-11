@@ -2,7 +2,7 @@ import { defineConfig, type DefaultTheme } from 'vitepress'
 
 export const zh = defineConfig({
   lang: 'zh-CN',
-  description: '基于NTQQ现代化协议端Bot框架',
+  description: '基于Python打造的全功能Mc机器人',
 
   themeConfig: {
     nav: nav(),
@@ -10,7 +10,7 @@ export const zh = defineConfig({
     sidebar: sidebarGuide(),
 
     editLink: {
-      pattern: 'https://github.com/NapNeko/NapCatDocs/edit/main/src/:path',
+      pattern: 'https://github.com/KiKi-XC/KiKi-FusionBot-Docs/tree/main/src:path',
       text: '在 GitHub 上编辑此页面'
     },
 
@@ -44,7 +44,7 @@ function nav(): DefaultTheme.NavItem[] {
   return [
     {
       text: '快速开始',
-      link: '/guide/start-install',
+      link: '/guide/doc_start',
       activeMatch: '/guide/'
     },
     {
@@ -62,40 +62,24 @@ function sidebarGuide(): DefaultTheme.Sidebar {
       base: '/guide',
       collapsed: true,
       items: [
-        { text: '目录导航', link: '/start-install' },
-        { text: '什么是 NapCatQQ', link: '/napcat' },
-        { text: '启动方式', link: '/install' },
-        {
-          text: '安装方式',
-          base: '/guide/boot',
-          collapsed: false,
-          items: [
-            { text: 'Shell', link: '/Shell' },
-            { text: 'Framework', link: '/Framework' }
-          ]
-        }
+        { text: '目录导航', link: '/doc_start' },
+        { text: '什么是 KiKi-FusionBot', link: '/kiki_fusionbot' },
+        { text: '有什么用', link: '/avail' },
+        {  text: '用了什么技术', link: '/techstack' },
       ]
     },
     {
-      text: '配置',
-      base: '/config',
+      text: '使用教程',
+      base: '/course',
       collapsed: true,
       items: [
-        { text: '基础配置', link: '/basic' },
-        { text: '高级配置', link: '/advanced' }
+        { text: '命令使用指南', link: '/command' },
+        { text: '常见问题解决', link: '/faq' },
+        { text: '细节与特性', link: '/features'}
       ]
     },
     {
-      text: '使用',
-      base: '/use',
-      collapsed: true,
-      items: [
-        { text: '接入框架', link: '/integration' },
-        { text: '社区资源', link: '/community' }
-      ]
-    },
-    {
-      text: '开发',
+      text: '二次开发',
       base: '/develop',
       collapsed: true,
       items: [
@@ -115,13 +99,13 @@ function sidebarGuide(): DefaultTheme.Sidebar {
       ]
     },
     {
-      text: '其余',
+      text: '乱七八糟',
       base: '/other',
       collapsed: true,
       items: [
         {
-          text: '喵喵',
-          link: '/napcat.md'
+          text: 'KiKiKiKiKiKiKiKiKi',
+          link: '/kiki_fusionbot.md'
         },
         {
           text: '关于',

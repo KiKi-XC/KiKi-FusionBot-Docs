@@ -1,33 +1,32 @@
 ---
 layout: home
 
-title: NapCatQQ
-titleTemplate: 现代化的基于 NTQQ 的 Bot 协议端实现
+title: KiKi-FusionBot
+titleTemplate: 基于Python打造的全功能机器人
 
 hero:
-  name: NapCatQQ
-  text: 现代化的基于 NTQQ 的 Bot 协议端实现
+  name: KiKi-FusionBot
+  text: 基于Python打造的全功能Mc机器人
   actions:
     - theme: brand
-      text: 开始安装
-      link: /guide/start-install
+      text: 阅读机器人文档
+      link: /guide/doc_start
     - theme: alt
-      text: GitHub
-      link: https://github.com/NapNeko/NapCatQQ
+      text: 关于KiKi-Items
+      link: https://github.com/KiKi-XC/KiKi-XC
   image:
-      src: /assets/newlogo.png
-      alt: Logo
-
+    src: /assets/KiKi-FusionBot.png
+    alt: Logo
 features:
   - icon: 📝
-    title: 开箱即用
-    details: 多种部署方式，快捷部署于 Windows/Linux/macOS 等主流 x64 架构平台。
-  - icon: 🪶
-    title: 内存轻量
-    details: 天生无头，不依赖框架加载，不依赖 Electron，内存占用低至 50~100 MB。
+    title: 功能齐全
+    details: 完整的权限配置,简单的参数配置,小到入服绑定,大到封禁玩家、数据查询等全功能
   - icon: 🚀
-    title: 适配快速
-    details: 采取 Core/Adapter 架构，支持多种 Bot 协议，快速迁移。
+    title: 异步适配
+    details: 百分之90以上的代码使用异步编程,多人同时运行无干扰,执行速度包快的
+  - icon: 🚧
+    title: 稳定可靠
+    details: 完整的报错处理以及日志记录和报错通知，确保第一时间可发现并解决问题
 ---
 <Confetti />
 

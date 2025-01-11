@@ -2,7 +2,7 @@
 
 ## 问题 - Framework与Shell版本 有什么差别？
 
-[看我](../start-install.md)
+[看我](../doc_start)
 
 ## 文件 - NapCat.Framework.zip 是什么?
 
