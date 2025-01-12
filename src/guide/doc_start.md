@@ -5,7 +5,7 @@ comment: false
 
 ### 快速开始
 <br>
-<NCard title="🤔 了解KiKi-FusionBot" link="./kiki-fusionbot">
+<NCard title="🤔 了解KiKi-FusionBot" link="./kiki_fusionbot">
 为什么有这个机器人？机器人有什么用？
 </NCard>
 

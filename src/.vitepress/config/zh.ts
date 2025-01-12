@@ -10,7 +10,7 @@ export const zh = defineConfig({
     sidebar: sidebarGuide(),
 
     editLink: {
-      pattern: 'https://github.com/KiKi-XC/KiKi-FusionBot-Docs/tree/main/src:path',
+      pattern: 'https://github.com/KiKi-XC/KiKi-FusionBot-Docs/tree/main/src/:path',
       text: '在 GitHub 上编辑此页面'
     },
 
