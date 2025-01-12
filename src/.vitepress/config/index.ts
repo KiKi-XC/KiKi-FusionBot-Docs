@@ -14,5 +14,5 @@ export default withMermaid(defineConfig({
   // optionally set additional config for plugin itself with MermaidPluginConfig
   mermaidPlugin: {
     class: "mermaid my-class", // set additional css classes for parent container 
-  }
+  },
 }));

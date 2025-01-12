@@ -73,7 +73,7 @@ export default {
           {
             key: 'wordCount',
             type: 'dynamic',
-            title: '字数',
+            title: '文字字数',
             options: {
               type: 'wordsCount',
             },

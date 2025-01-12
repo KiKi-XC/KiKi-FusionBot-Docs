@@ -72,7 +72,7 @@ export const shared = defineConfig({
   },
 
   sitemap: {
-    hostname: 'https://napneko.github.io/',
+    hostname: 'https://bot.kiki-items.cn',
     transformItems(items) {
       return items.filter((item) => !item.url.includes('migration'))
     }
