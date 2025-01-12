@@ -78,8 +78,8 @@ function sidebarGuide(): DefaultTheme.Sidebar {
           base: '/course/command',
           collapsed: false,
           items: [
-            { text: '玩家命令', link: '/user_command.md' },
-            { text: '管理员命令', link: '/op_command.md' },
+            { text: '玩家命令', link: '/user_command' },
+            { text: '管理员命令', link: '/op_command' },
           ]
         },
         { text: '常见问题解决', link: '/faq' },
@@ -99,7 +99,7 @@ function sidebarGuide(): DefaultTheme.Sidebar {
           base: '/develop/models',
           collapsed: false,
           items: [
-            { text: 'Get Skin', link: '/get_skin.md' },
+            { text: 'Get Skin', link: '/get_skin' },
           ]
         }
       ]

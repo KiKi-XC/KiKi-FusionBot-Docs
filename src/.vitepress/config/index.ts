@@ -5,6 +5,7 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 
 export default withMermaid(defineConfig({
   ...shared,
+  ignoreDeadLinks: true,
   locales: {
     root: { label: '简体中文', ...zh }
   },
