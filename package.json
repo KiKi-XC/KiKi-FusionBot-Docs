@@ -1,7 +1,7 @@
 {
   "name": "kiki-fusionbot_doc",
   "version": "1.0.0",
-  "description": "t",
+  "description": "KiKi-FusionBot基于Python打造的全功能机器人",
   "main": "index.ts",
   "type": "module",
   "scripts": {

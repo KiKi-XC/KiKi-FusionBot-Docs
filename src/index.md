@@ -2,7 +2,7 @@
 layout: home
 
 title: KiKi-FusionBot
-titleTemplate: 基于Python打造的全功能机器人
+titleTemplate: KiKi-FusionBot基于Python打造的全功能机器人
 
 hero:
   name: KiKi-FusionBot
