@@ -11,18 +11,18 @@ comment: false
 
 ### 使用教程
 <br>
-<NCard title="🚀 使用KiKi-FusionBot" link="../guide/install">
+<NCard title="🚀 使用KiKi-FusionBot" link="../course/command/user_command">
 KiKi-FusionBot有十分多大大小小的功能,看不见看得见的都在这~
 </NCard>
 
 <br>
-<NCard title="📑 常见问题" link="../config/basic">
+<NCard title="📑 常见问题" link="../course/faq.md">
 机器人在使用过程中可能遇到一些常见报错,有时候可能不是机器人的锅！
 </NCard>
 
 ### 二次开发
 <br>
-<NCard title="🔗 对接API" link="../use/integration">
+<NCard title="🔗 对接API" link="../develop/token">
 有部分关于NeoTcc和KiKi-FusionBot的API可供对接二次开发.
 </NCard>
 
