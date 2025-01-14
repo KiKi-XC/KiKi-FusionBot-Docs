@@ -92,10 +92,10 @@
 1. 可在任意群内输入（包括审核群）`【审核数据】` 来查询你个人在审核结果表内的所有信息
 2. 用于快速查看自己是否通过
 
-   ![set_style](/public/assets/command/my_audit_query.png)
+   ![my_audit_query](/public/assets/command/my_audit_query.png)
 
 ## [你的审核数据]()
 1. 可在任意群内输入（包括审核群）`【你的审核数据 + QQ】` 来查询他人在审核结果表内的所有信息
 2. 用于快速查看他人是否通过
 
-   ![set_style](/public/assets/command/user_audit_query.png)
+   ![user_audit_query](/public/assets/command/user_audit_query.png)
