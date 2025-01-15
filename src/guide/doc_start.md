@@ -14,7 +14,6 @@ comment: false
 <NCard title="🚀 使用KiKi-FusionBot" link="../course/command/user_command">
 KiKi-FusionBot有十分多大大小小的功能，看不见看得见的都在这~
 </NCard>
-
 <br>
 <NCard title="📑 常见问题" link="../course/faq">
 机器人在使用过程中可能遇到一些常见报错，有时候可能不是机器人的锅！
