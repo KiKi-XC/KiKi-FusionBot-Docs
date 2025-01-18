@@ -64,7 +64,6 @@ function sidebarGuide(): DefaultTheme.Sidebar {
       items: [
         { text: '目录导航', link: '/doc_start' },
         { text: '什么是 KiKi-FusionBot', link: '/kiki_fusionbot' },
-        { text: '有什么用', link: '/avail' },
         {  text: '用了什么技术', link: '/techstack' },
       ]
     },
@@ -74,15 +73,25 @@ function sidebarGuide(): DefaultTheme.Sidebar {
       collapsed: true,
       items: [
         {
-          text: '命令使用指南',
+          text: '机器人命令使用指南',
           base: '/course/command',
           collapsed: false,
           items: [
-            { text: '玩家命令', link: '/user_command' },
-            { text: '管理员命令', link: '/op_command' },
+            { text: '玩家命令', base: '/course/command/bot', link: '/user_command' },
+            { text: '管理员命令', base: '/course/command/bot', link: '/op_command' },
           ]
         },
-        { text: '常见问题解决', link: '/faq' },
+        {
+          text: 'Mc插件命令使用指南',
+          base: '/course/command',
+          collapsed: false,
+          items: [
+            { text: '玩家命令', base: '/course/command/script',  link: '/user_command' },
+            { text: '管理员命令', base: '/course/command/script',  link: '/op_command' },
+          ]
+        },
+        { text: '机器人常见问题解决', base: '/course/faq/bot', link: '/bot_faq' },
+        { text: '插件常见问题解决', base: '/course/faq/script',  link: '/script_faq' },
         { text: '细节与特性', link: '/features'}
       ]
     },
