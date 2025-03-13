@@ -110,7 +110,8 @@ function sidebarGuide(): DefaultTheme.Sidebar {
           items: [
             { text: 'Get Skin', link: '/get_skin' },
           ]
-        }
+        },
+        { text: 'API开发者协议', link: '/api_agreement.md' },
       ]
     },
     {
